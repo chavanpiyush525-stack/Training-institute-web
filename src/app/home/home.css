@@ -1,0 +1,212 @@
+/* GENERAL STYLING */
+section {
+  padding: 50px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-actions .btn {
+  margin: 10px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.primary {
+  background: #38bdf8;
+  color: black;
+}
+
+.outline {
+  border: 2px solid #38bdf8;
+  background: transparent;
+  color: #38bdf8;
+}
+
+/* FEATURES */
+.features .feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.feature-card {
+  background: white;
+  width: 250px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card .icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/* POPULAR COURSES */
+.popular-courses .course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.course-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+}
+
+/* WHY CHOOSE US */
+.why-choose .why-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.why-card {
+  background: #38bdf8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+.footer {
+  background: #0f172a;
+  color: #cbd5f5;
+  padding: 50px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LOGO & ABOUT */
+.footer-about h2 {
+  font-size: 24px;
+  color: #38bdf8;
+  margin-bottom: 12px;
+}
+
+.footer-about p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+/* LINKS */
+.footer-links h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #cbd5f5;
+  margin-bottom: 8px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+}
+
+/* CONTACT */
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.socials a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 18px;
+  color: #38bdf8;
+  transition: transform 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+/* BOTTOM COPYRIGHT */
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 13px;
+  border-top: 1px solid #334155;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-about p {
+    max-width: 100%;
+  }
+}
